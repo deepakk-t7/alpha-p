@@ -1,0 +1,95 @@
+.right-container-ab {
+  width: 100rem;
+  /* margin: 0 auto; */
+  /* position: relative; */
+}
+.right-container-ab h1 {
+  /* border-bottom: 2px solid red; */
+  /* top: -16%; */
+  /* position: absolute; */
+  font-size: 4rem;
+  font-weight: 700;
+  /* margin-bottom: 10rem; */
+  color: white;
+  margin-top: 10%;
+}
+
+.map-container {
+  margin-top: 8rem;
+  width: 100rem;
+  height: 40rem;
+}
+.map-container iframe {
+  /* color: aqua; */
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+
+form input,
+textarea {
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+
+  padding: 1.6rem;
+}
+form textarea {
+  height: 12rem;
+}
+form input,
+textarea::placeholder {
+  font-style: italic;
+}
+
+form button {
+  width: 16rem;
+  height: 5rem;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 34em) {
+  body {
+    background-color: rgb(18, 17, 17);
+  }
+  .right-container-ab {
+    margin-top: 25rem;
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    position: relative;
+
+    /* min-width: 20rem;  see laater this is imp */
+    /* margin: 0 auto; */
+  }
+
+  .right-container-ab h1 {
+    /* border-bottom: 2px solid red; */
+    top: -8%;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+    /* margin-bottom: 10rem; */
+    color: white;
+  }
+  .map-container {
+    margin-top: 8rem;
+    width: 100%;
+    min-width: 20rem;
+    height: 40rem;
+  }
+  .map-container iframe {
+    /* color: aqua; */
+    width: 100%;
+    height: 100%;
+  }
+}

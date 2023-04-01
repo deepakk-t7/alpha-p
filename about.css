@@ -1,0 +1,281 @@
+.right-container-ab {
+  width: 100rem;
+  /* transition-timing-function: all ease-in-out;
+  transition-duration: 2s; */
+  /* margin: 0 auto; */
+  /* position: relative; */
+}
+
+.right-container-ab h1 {
+  /* border-bottom: 2px solid red; */
+  /* top: -16%; */
+  /* position: absolute; */
+  font-size: 4rem;
+  font-weight: 700;
+  /* margin-bottom: 10rem; */
+  color: white;
+  margin-top: 10%;
+}
+.initials {
+  margin-top: 2rem;
+  /* width: 90%; */
+}
+
+.initials h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.initials h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: rgb(225, 36, 36);
+}
+.initials p {
+  margin-top: 4rem;
+  color: rgb(157, 152, 152);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.bio {
+  display: flex;
+  /* flex-shrink: 0; */
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.bio-1 {
+  display: flex;
+  gap: 3rem;
+}
+.bio-1 li {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.bio-2 {
+  display: flex;
+  /* margin-left: 34rem; */
+  gap: 3rem;
+}
+.bio-2 li {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.li-bold-white {
+  font-weight: 600;
+  color: white;
+}
+
+/* BUTTON CSS */
+
+/* CSS */
+.btn {
+  margin-top: 4rem;
+}
+.button-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+/* progress bars */
+
+.pro-container {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: flex;
+  /* position: relative; */
+  /* padding-bottom: 4rem; */
+  flex-direction: column;
+  gap: 4rem;
+  /* background-color: black; */
+  /* padding: 10rem; */
+}
+
+.pro-heading h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.bar-container {
+  width: 40%;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.bar1-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-style: italic;
+  margin-bottom: 2rem;
+  /* font-weight: 100; */
+}
+.bar1-text h2 {
+  font-weight: 300;
+}
+.bars-1 {
+  height: 0.6rem;
+  width: 80%;
+}
+.bars-2 {
+  height: 0.6rem;
+  width: 60%;
+}
+.bars-3 {
+  height: 0.6rem;
+  width: 40%;
+}
+
+.bar-bg {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.bar-fg {
+  background-color: red;
+}
+
+/* knowlege */
+.k-i-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* gap: 10rem; */
+  margin-bottom: 8rem;
+}
+
+.headings__main {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.ul-li__style {
+  font-size: 1.6rem;
+
+  font-weight: 600;
+  color: white;
+}
+.ul-li__style li {
+  /* list-style: armenian; */
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 34em) {
+  .right-container-ab {
+    margin-top: 25rem;
+    /* width: 80%; */
+    /* padding: 30rem; */
+    /* margin: 0 auto; */
+    position: relative;
+
+    /* min-width: 20rem;  see laater this is imp */
+    /* margin: 0 auto; */
+  }
+
+  .right-container-ab h1 {
+    /* border-bottom: 2px solid red; */
+    top: -8%;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+    /* margin-bottom: 10rem; */
+    color: white;
+  }
+  .bio {
+    display: flex;
+    gap: 2rem;
+    /* flex-shrink: 0; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-top: 4rem;
+  }
+
+  /* .bio-2 {
+    display: flex;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+  .bio-1 {
+    display: flex;
+    margin: 0 auto;
+    gap: 3rem;
+  } */
+  .pro-container {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    /* position: relative; */
+    /* padding-bottom: 4rem; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    /* background-color: black; */
+    /* padding: 10rem; */
+  }
+
+  .k-i-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    /* text-align: center; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* gap: 10rem; */
+    margin-bottom: 8rem;
+  }
+
+  body {
+    background-color: rgb(18, 17, 17);
+  }
+}
